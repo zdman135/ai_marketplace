@@ -17,6 +17,7 @@
     "eslint": "^4.19.1",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0",
     "mysql2": "^1.6.5",
     "sequelize": "^4.43.0",
     "watson-developer-cloud": "^3.18.1"
@@ -27,11 +28,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nanderson815/project2.git"
+    "url": "git+https://github.com/zdman135/ai_marketplace.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/nanderson815/project2/issues"
+    "url": "https://github.com/zdman135/ai_marketplace/issues"
   },
-  "homepage": "https://github.com/nanderson815/project2#readme"
+  "homepage": "https://github.com/zdman135/ai_marketplace#readme"
 }
