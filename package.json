@@ -1,0 +1,37 @@
+{
+  "engines": {
+    "node": "11.10.0"
+  },
+  "name": "eslint-example",
+  "version": "1.0.0",
+  "description": "Eslint Example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint **/*.js --quiet",
+    "test": "npm run lint"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "eslint": "^4.19.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.43.0",
+    "watson-developer-cloud": "^3.18.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanderson815/project2.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/nanderson815/project2/issues"
+  },
+  "homepage": "https://github.com/nanderson815/project2#readme"
+}

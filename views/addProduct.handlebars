@@ -1,0 +1,93 @@
+{{> header/header }}
+
+<div class="container">
+  <div class="card">
+    <div class="card-content">
+
+      <h5>Add Your Product to the Marketplace!</h5>
+
+      <form id="productForm" class="create-form">
+
+        <div class="form-group">
+          <label for="item">Product Image URL:</label>
+          <input type='url' id="image" name='image' class="validate" required="" aria-required="true" />
+          <button id="addImage" type="submit" class="btn">Submit Image</button>
+        </div>
+        <br>
+
+        <div class="form-group">
+          <label for="item">Product Name:</label>
+          <input type="text" id="name" name="name" class="validate" required="" aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="item">Product Tags</label>
+          <div class="chips chips-autocomplete">
+            <input>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="item">Product Category</label>
+          <div class="input-field col s12">
+            <select id="category">
+              <option value="" disabled selected>Choose your Category</option>
+              <option value="Technology">Technology</option>
+              <option value="Sports">Sports</option>
+              <option value="Cars">Cars</option>
+              <option value="Leisure">Leisure</option>
+              <option value="Fasion">Fashion</option>
+              <option value="Education">Education</option>
+              <option value="Lifestyle">Lifestyle</option>
+              <option value="Home Goods">Home Goods</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="price">Product Price:</label>
+          <input type="number" step=".01" id="price" name="price" class="validate" required="" aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="item">Product Description:</label>
+          <input type="text" id="description" name="description" class="validate" required="" aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="psw">Password:</label>
+          <input class="validate" required="" aria-required="true" type="password" id="psw" name="psw"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+          <p>The password will be used if you ever want to delete or edit your listing.</p>
+        </div>
+
+
+        <br>
+
+        <h5>Please Input Your Information so Other Users Can Contact You.</h5>
+        <div class="form-group">
+          <label for="username">Your Name: </label>
+          <input type="text" id="username" name="username" class="validate" required="" aria-required="true">
+        </div>
+
+
+        <div class="form-group">
+          <label for="item">Phone Number:</label>
+          <input type="text" id="phone" name="phone" class="validate" required="" aria-required="true">
+        </div>
+
+
+        <div class="form-group">
+          <label for="item">E-Mail Address:</label>
+          <input type="text" id="email" name="email" class="validate" required="" aria-required="true">
+        </div>
+
+        <br>
+        <button id="submit" type="submit" class="btn">Add Product</button>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+{{> footer/footer }}
